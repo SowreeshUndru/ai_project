@@ -53,7 +53,7 @@ io.on("connection", function (socket) {
     });
 });
 
-const port = process.env.server_PORT||3000;
+const port = process.env.PORT||3000;
 
 http_server.listen(port, function () {
     console.log(`server is running on port ${port}`);

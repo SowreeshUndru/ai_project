@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+:root {
+  
+ 
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+
+ 
+}
+
+::-webkit-scrollbar {
+  display: none; 
+}
+
+
+.scroll,panel{
+  scroll-behavior: smooth;
+}
